@@ -1,0 +1,31 @@
+.nav li {
+  background-color: red;
+  display: inline;
+}
+
+.nav a {
+  color: white;
+}
+
+#about_blue {
+  background-color: #6495ED;
+  border: 3px solid black;
+  margin-bottom: 10px;
+}
+
+#about_blue li {
+  color: blue;
+}
+
+#about_yellow {
+  background-color: #FFEBCD;
+  border: 3px solid black;
+}
+
+#about_yellow li {
+  color: orange;
+}
+
+#about_yellow li:last-child, #about_blue li:last-child {
+  font-weight: bold;
+}
